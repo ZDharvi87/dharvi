@@ -1,0 +1,6 @@
+Day 1 :
+	Understand what is wen application 
+	Learn and Understand type of Scripting 
+	Learn and Understand type of Servers 
+	Understand Redmine useage 
+	Doing Some Updatation in  PHP Index Structure 

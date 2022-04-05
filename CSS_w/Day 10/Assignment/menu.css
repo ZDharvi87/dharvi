@@ -1,0 +1,62 @@
+
+.header{
+    
+    text-align: center;
+    width: 162%;
+    height: 60px;
+    padding-left: -20px;
+    background-color: #00ba8b;
+    border-radius: 0%;
+    margin-left: -430px;
+    margin-top: -8px;
+    margin-right: -820px;
+    display: block;
+    box-shadow: 10px 10px 8px #888888;
+} 
+.mainnav{
+    display: inline-flex;
+    margin-left: -200px;
+    margin-top: 0px;
+    padding-left:  10px;
+    }
+    .active{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left:-40px ;
+        margin-right: 80px;
+        text-decoration: none;
+        background-color: rgb(49, 49, 49);    
+        color: azure;
+        font-size: 17px;
+        display: block;
+        height: 30px;
+        border-radius: 5px;
+        width: 100px;
+        box-shadow: 0px 0px 10px #ffffff;
+        font-weight: bolder; 
+     }
+     a:hover {
+         background-color: rgb(255, 255, 255);
+         color: black;
+     }
+     .menu{
+  
+        display: flex;
+          box-shadow: 2px 2px 5px;
+          width: 20%;
+          height: 700px;
+          position: fixed;
+          overflow: scroll;
+        }
+        .main >.Hdetail{
+        display: block;
+        overflow: auto;
+        width: 50%;
+        height: 60%;
+        }
+        
+         .main2{
+        flex: 70%;
+        overflow: auto;
+        padding-left: 50%;
+        }

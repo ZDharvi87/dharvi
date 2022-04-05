@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Templating a string </title>
+    
+  </head>
+  <body>
+      <h4 ></h4>
+      <script>
+          const name="Dharvi";
+          const surname="Zanzrukia";
+          const Branch="IT";
+
+          //templeting a string
+
+          var ans=print `My name is ${name}  ${surname} and I m studing in ${Branch}`;
+          document.write(ans);
+
+        //Templating string  Dynamically
+        
+        const details={
+            Name : "Dharvi",
+            Surname :"Zanzrukia",
+            Hobbies :['Reading Books','Music','Dancing']
+
+        };
+
+        document.write(
+            `<h2>${details.Name}</h2>
+            <h3>${details.Surname}</h3>
+            <ul>${details.Hobbies.map(item =>{
+                return `<li>${item}</li>`
+            }).join("")}</ul>`
+        )
+
+        function print(text,...vars){
+           console.log({text,vars});
+        }
+      </script>
+  </body>
+</html>

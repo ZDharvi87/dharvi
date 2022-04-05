@@ -1,0 +1,18 @@
+.mr{
+    margin-left: 5%;
+}
+
+.mr > li{
+   padding-left: 10%;
+}
+#home-section{
+    background-image: url("home.jpg");
+    background-repeat:no-repeat;
+    opacity: 0.8;
+}
+.home-inner{
+    padding-top: 120px;
+}
+.card-form{
+    opacity: 0.8;
+}

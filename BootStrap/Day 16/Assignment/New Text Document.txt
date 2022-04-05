@@ -1,0 +1,13 @@
+<nav class="navbar navbar-expand-sm navbar-light  position-relative">
+    <div class="container-fluid" >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand">Mizuxe</a>
+        <img src="mlogo.png" alt="" height="40">
+        <div class=" collapse navbar-collapse " id="mynavbar"  aria-labelledby="mynavbar" >
+            <ul class="navbar-nav mr pl " aria-labelledby="navcontent">
+                <li class="nav-item "><a class=" nav-link text-decoration-none link-dark" href="#home">Home</a></li>
+                <li class="nav-item"><a class="text-decoration-none  link-dark" href="#about">About</a></li>
+                <li class="nav-item"><a class="text-decoration-none  link-dark" href="#meet">Authors</a></li>
+                <li class="nav-item"><a class="text-decoration-none  link-dark" href="#Contact">Contact</a></li>

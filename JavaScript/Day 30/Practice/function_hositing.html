@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function Hoisting</title>
+    <style>
+        body{
+          text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+        
+        <h2>Function Hoisting</h2>
+       
+        <input type="submit" name="Submit" onclick="display()">
+        <h2 id="res"></h2>
+    <script>
+        display();
+       
+        function display(){
+            var r=10;
+            document.getElementById("res").value= r;
+        }
+       
+    </script>
+  </body>
+</html>
+    

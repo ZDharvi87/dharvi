@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="Stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Window.History</title>
+    <style>
+        body{
+          text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+      <input type="button" value="Back" onclick="back()" style="width: 20%; height: 20%;" class="btn btn-warning"><br><br>
+      <input type="button" value="Next" onclick="next()" style="width: 20%; height: 20%;" class="btn btn-warning">
+<script>
+    function back(){
+        window.history.back();
+    }
+    function next(){
+        window.history.forward();
+    }
+         
+</script>
+  </body>
+</html>

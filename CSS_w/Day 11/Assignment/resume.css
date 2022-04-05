@@ -1,0 +1,248 @@
+.menu{
+    display: block;
+    box-shadow: 2px 2px 5px;
+    width: 20%;
+    background-image: linear-gradient(to bottom right, rgb(245, 137, 137), rgb(245, 245, 175));
+    height: 700px;
+    position: fixed;
+}
+#uli > li{
+    list-style-type: none;
+    padding-top:5% ;
+    font-size: larger;
+    font-weight: bolder;
+}
+a{
+    list-style-type: none;
+    font-weight: bolder;
+    background-color: rgb(255, 249, 240);
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+a > li{
+    margin-top: 20px;
+    display: block;
+    box-shadow: 2px 2px 5px;
+    background-color: beige;
+
+}
+a  :hover{
+    color: rgb(191, 195, 196);
+}
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    border: 2px solid black;
+}
+.per_info{
+    float: right;
+    padding-left: 100px;
+    display: grid;
+    box-shadow: 2px 2px 5px;
+    margin-top: auto;
+    height: 550px;
+   width: 970px;
+   font-weight: bolder;
+   font-style: italic;
+   background-image: linear-gradient(to bottom right, rgb(245, 137, 137), rgb(245, 245, 175));
+
+}
+
+.per_info > div{
+            display: flex;
+            padding: 10px;
+            box-shadow: 2px 3px 2px; 
+            font-weight: bolder;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+            background-color: rgba(253, 238, 231, 0.877);   
+
+}
+.edu{
+    float: right;
+    padding-left: 100px;
+    display: grid;
+    box-shadow: 2px 2px 5px;
+    margin-top: 20px;
+   height: 570px;
+   width: 9px;
+   position: relative;
+   font-style: italic;
+   font-size: large;
+   background-image: linear-gradient(to bottom right, rgb(245, 137, 137), rgb(245, 245, 175));
+
+   
+}
+body > .main1{
+    margin-left: 100%;
+}
+
+#tab1{ 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    border-collapse: separate;
+    border-spacing: 0 0.4em;
+    height: 400px;
+    width: 800px;
+   
+    font-weight: bolder;
+}
+
+#tab1 > tr , td ,th{
+    border: 2px solid;
+    background-color: rgb(255, 249, 240);
+}
+
+.tech{
+
+    float: right;
+    padding-left: 100px;
+    display: block;
+    box-shadow: 2px 2px 5px;
+    margin-top: 1%;
+    height: 290px;
+    width: 970px;
+   font-style: italic;
+   font-size: large;
+   background-image: linear-gradient(to bottom right, rgb(245, 137, 137), rgb(245, 245, 175));
+}
+
+.tab2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    border-collapse: separate;
+    border-spacing: 0 0.4em;
+    height: 150px;
+    width: 600px;
+    font-weight: bolder;
+    background-color: rgb(255, 249, 240);
+
+}
+.tab1 > tr , td {
+    border: 2px solid;
+}
+.project{
+     
+    float: right;
+    padding-left: 100px;
+    display: block;
+    box-shadow: 2px 2px 5px;
+    margin-top: 1%;
+    height: 500px;
+    width: 970px;
+    font-style: italic;
+    font-size: large;
+    background-image: linear-gradient(to bottom right, rgb(245, 137, 137), rgb(245, 245, 175));
+}
+#u2{
+    list-style-type: none;
+    font-weight: bolder;
+    background-color: rgb(255, 249, 240);
+    font-size: larger;
+    height: 200px;
+}
+#u4{
+    list-style-type: none;
+    font-weight: bolder;
+    background-color: rgb(255, 249, 240);
+    font-size: larger;
+    height: 200px;
+}
+
+.vid{
+    float: right;
+    padding-left: 100px;
+    display: block;
+    box-shadow: 2px 2px 5px;
+    margin-top: 1%;
+    height: 600px;
+    width: 970px;
+    font-style: italic;
+    font-size: large;
+    background-image: linear-gradient(to bottom right, rgb(245, 137, 137), rgb(245, 245, 175));
+}
+.cert{
+    float: right;
+    padding-left: 100px;
+    display: block;
+    box-shadow: 2px 2px 5px;
+    margin-top: 1%;
+    height: 200px;
+    width: 970px;
+    font-style: italic;
+    font-size: larger;
+    background-image: linear-gradient(to bottom right, rgb(245, 137, 137), rgb(245, 245, 175));
+}
+#u3 > li{
+    display: block;
+    box-shadow: 2px 2px 5px;
+    list-style-type: none;
+    font-weight: bolder;
+    background-color: rgb(255, 249, 240);
+    font-size: large;
+    height: auto;
+    margin-top: 2% ;
+}
+
+@media only screen and (max-width:760px){
+    .menu {
+        width: 520px;
+        height: 400px;
+        position: relative;
+
+    }
+    
+}
+@media only screen and (max-width:768px){
+    .per_info{
+        width: 97%;
+        height: auto;
+        margin-top: 2%;
+    }
+    
+}
+@media only screen and (max-width:768px){
+    .edu, #tab1{
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+    }
+    
+}
+@media only screen and (max-width:768px){
+    .tech , .tab2{
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+    }
+    
+}
+
+@media only screen and (max-width:768px){
+    .project{
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+    }
+    
+}
+@media only screen and (max-width:768px){
+    .vid , .vid > video{
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+    }
+    
+}
+@media only screen and (max-width:768px){
+    .cert{
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+    }
+    
+}
